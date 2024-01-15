@@ -32,6 +32,6 @@ if __name__ == "__main__":
 
     img = cv2.imread(img_path)
 
-    img_gray = convertToGrayAPI(img)
+    img_gray = convertToGray(img)
 
     cv2.imwrite('./test_img_gray.png', img_gray)
